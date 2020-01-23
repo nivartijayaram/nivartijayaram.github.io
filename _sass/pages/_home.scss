@@ -5,11 +5,11 @@
   background-position: 49px -40px;
   @include media-breakpoint-up(xs) {
     background-size: 90%;
-    background-position: right bottom;
+    background-position: 190% 25%;
   }
   @include media-breakpoint-up(sm) {
     background-size: 90%;
-    background-position: right bottom;
+    background-position: 190% 25%;
   }
   @include media-breakpoint-up(md) {
     background-size: 70%;
@@ -119,5 +119,35 @@
         width: 70%;
       }
     }
+  }
+}
+
+.about{
+  h1{
+    color: $primary;
+    font-size: 2.4rem;
+    line-height: 1.2;
+    font-family: $font-family-heading;
+    margin-bottom: 30px;
+  }
+  .org-logo{
+    padding-bottom:5px;
+    img{
+      max-width:100%;
+      max-height:100%;
+    }
+
+  }
+  .heading{
+    display:block;
+  }
+}
+
+.feature-image{
+  display: block;
+  img{
+    width:100%;
+    height:auto;
+    vertical-align: bottom;
   }
 }
