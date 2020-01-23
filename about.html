@@ -4,12 +4,16 @@ layout: page
 bodyClass: page-services-list
 ---
 <div class="container about pt-6 pl-6 pr-6">
-
   <div class="row heading">
     <h1 class="service-title" align="center">Few Words about Nivarti</h1>
   </div>
   <div class="row">
+    <div class="col-md-3 mx-1 about-image">
+      <img src="{{site.baseurl}}/assets/images/nivarti_homepage.jpg"/>
+    </div>
+    <div class="col-md-9 mx-1">
     <p>Nivarti is an ICF Accredited Career & Leadership Transformation Coach, Service Veteran and an UN Peace Keeper with over 30 Years of experience across Industry sectors. He believes agility is a state of mind, transformation never a destination but a continuous and an ongoing journey. A continuous unlearner, Nivarti believes unlearning is a significant ingredient to sustain transformation whether it is personal or organizational. He promotes a culture of "being dispensable" through identifying right talent & building capability to create sustainability in organizations.</p>
+    </div>
   </div>
 </div>
 
@@ -74,16 +78,12 @@ bodyClass: page-services-list
     <h1 class="service-title" align="center">Testimonials</h1>
   </div>
   <div class="row">
-    {% for testimonial in site.testimonials %}
-    <div class="col-12 col-md-6 mb-2 ">
-      <div class="testimonials testimonials-summary">
-        <div class="testimonials-meta">
-          <h2 class="testimonials-title">{{ testimonial.name }}</h2>
-          <p class="testimonials-name">{{ testimonial.jobtitle }}</p>
-          <p class="testimonials-jobtitle">{{ testimonial.org }}</p>
-        </div>
-        <div class="testimonials-content">{{ testimonial.content }}</div>
-      </div>
+    {% for testimonial in site.data.testimonials %}
+    <div class="feature col-md-4 mb-2">
+      {% if testimonial.image %}<div class="feature-image"><img alt="{{ testimonial.name }} logo" src="{{ testimonial.image }}" /></div> {% endif %}
+      <h2 class="feature-title">{{ testimonial.name }}</h2>
+      <div class="feature-content">{{ testimonial.jobtitle }}, {{testimonial.org}}</div>
+      <div> {{testimonial.text}} </div>
     </div>
     {% endfor %}
   </div>
