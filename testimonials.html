@@ -8,16 +8,12 @@ bodyClass: page-testimonials-list
     <h1 class="service-title" align="center">Testimonials</h1>
   </div>
   <div class="row">
-    {% for testimonial in site.testimonials %}
-    <div class="col-12 col-md-6 mb-2 ">
-      <div class="testimonials testimonials-summary">
-        <div class="testimonials-meta">
-          <h2 class="testimonials-title">{{ testimonial.name }}</h2>
-          <p class="testimonials-name">{{ testimonial.jobtitle }}</p>
-          <p class="testimonials-jobtitle">{{ testimonial.org }}</p>
-        </div>
-        <div class="testimonials-content">{{ testimonial.content }}</div>
-      </div>
+    {% for testimonial in site.data.testimonials %}
+    <div class="feature">
+      {% if testimonial.image %}<div class="feature-image"><img alt="{{ testimonial.name }} logo" src="{{ testimonial.image }}" /></div> {% endif %}
+      <h2 class="feature-title">{{ testimonial.name }}</h2>
+      <div class="feature-content">{{ testimonial.jobtitle }}, {{testimonial.org}}</div>
+      <div> {{testimonial.text}} </div>
     </div>
     {% endfor %}
   </div>

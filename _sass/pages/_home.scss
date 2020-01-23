@@ -1,24 +1,4 @@
 .page-home {
-  background-image: url('../images/nivarti_homepage.jpg');
-  background-repeat: no-repeat;
-  background-size: 115%;
-  background-position: 49px -40px;
-  @include media-breakpoint-up(xs) {
-    background-size: 90%;
-    background-position: 190% 25%;
-  }
-  @include media-breakpoint-up(sm) {
-    background-size: 90%;
-    background-position: 190% 25%;
-  }
-  @include media-breakpoint-up(md) {
-    background-size: 70%;
-    background-position: right bottom;
-  }
-  @include media-breakpoint-up(lg) {
-    background-size: 60%;
-    background-position: right bottom;
-  }
   .call {
     position: relative;
     overflow: hidden;
@@ -150,4 +130,44 @@
     height:auto;
     vertical-align: bottom;
   }
+}
+
+.home-page-name{
+  text-align: right;
+  float: right;
+  font-size: 2.4rem;
+  line-height: 1.2;
+  font-family: $font-family-heading;
+  @include media-breakpoint-up(sm) {
+    width: 70%;
+  }
+  @include media-breakpoint-up(md) {
+    font-size: 3rem;
+  }
+  @include media-breakpoint-up(lg) {
+    margin-top: 0%;
+    width: 70%;
+  }
+}
+
+.home-page-text{
+  text-align: right;
+  float: right;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  @include media-breakpoint-up(sm) {
+    width: 70%;
+  }
+  @include media-breakpoint-up(md) {
+    font-size: 1.2rem;
+  }
+  @include media-breakpoint-up(lg) {
+    margin-top: 0%;
+    width: 70%;
+  }
+}
+
+.home-page-button-bar{
+  text-align:center;
+  float:right
 }
