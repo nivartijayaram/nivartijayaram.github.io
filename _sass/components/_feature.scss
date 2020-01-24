@@ -1,18 +1,18 @@
 .feature {
-  height: 100%;
   border: 2px solid #eaeaea;
-  padding: 20px;
+  padding: 10px;
   background-color: #ffffff;
   display: flex;
   align-items: center;
   flex-direction: column;
   text-align: center;
+  margin-right:0px;
   .feature-image {
     flex: 0 0 auto;
     width: 80px;
     height: 80px;
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: center;
   }
   img {
@@ -25,8 +25,8 @@
     line-height: 1.2;
   }
   .feature-content {
-    margin-bottom: 0;
-    margin-top: auto;
+    margin-bottom: auto;
+    margin-top: 0;
     p {
       margin: 0;
       strong {
