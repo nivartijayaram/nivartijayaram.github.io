@@ -3,10 +3,17 @@
     <div class="row">
       <div class="col-12">
         <div class="sub-footer">
+          <ul class="footer-contacts">
+            <li><strong>&#9742;</strong><a href="tel:{{ site.data.contact.phone }}">{{site.data.contact.phone}}</a></li>
+            <li><strong>&#x2709;</strong><a href="mailto:{{ site.data.contact.email }}">
+                {{ site.data.contact.email }}</a></li>
+          </ul>
           <ul>
             <li>Website designed and maintained by <a href="http://www.ampyard.com">Ampyard</a></li>
           </ul>
-        
+          <ul class="footer-menu">
+            <li class="copyright">© nivartijayaram.com {{site.time | date:'%Y'}}</li>
+          </ul>
         </div>
       </div>
     </div>
