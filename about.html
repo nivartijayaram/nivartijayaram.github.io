@@ -116,3 +116,19 @@ bodyClass: page-services-list
     </div>
   </div>
 </div>
+<div class="container about pr-6 pl-6 pt-6 pb-6">
+  <div class="row heading">
+    <h1 class="service-title" align="center">Testimonials</h1>
+  </div>
+  <div class="row">
+    {% for testimonial in site.data.testimonials %}
+    <div class="feature col-sm-3 xs-1 mb-1">
+      {% if testimonial.image %}<div class="feature-image"><img alt="{{ testimonial.name }} logo" src="{{ testimonial.image }}" /></div> {% endif %}
+      <h2 class="feature-title">{{ testimonial.name }}</h2>
+      <div class="feature-content"><p><strong>{{ testimonial.jobtitle }}, {{testimonial.org}}</strong></p>
+        <hr/>
+      <p align="center">{{testimonial.text}}</p></div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
