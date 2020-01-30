@@ -24,3 +24,8 @@
     text-decoration: none;
   }
 }
+
+.round-button{
+  @extend .button;
+  border-radius: 400px;
+}
