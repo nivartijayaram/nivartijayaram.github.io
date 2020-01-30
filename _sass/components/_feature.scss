@@ -7,6 +7,14 @@
   flex-direction: column;
   text-align: center;
   margin-right:5px;
+
+  @include media-breakpoint-up(xs) {
+    margin-bottom:10px;
+  }
+  @include media-breakpoint-up(sm) {
+    margin-bottom:10px;
+  }
+
   .feature-image {
     flex: 0 0 auto;
     width: 80px;
