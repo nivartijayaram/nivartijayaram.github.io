@@ -1,0 +1,22 @@
+---
+title: Writing
+layout: page
+bodyClass: page
+---
+<div class="container about  featurecontainer pt-5">
+  <div class="row heading">
+    <h1 class="service-title" align="center">Blogs</h1>
+  </div>
+  <div class="row">
+    {% for blog in site.data.blogs %}
+    <div class="feature col-sm-5 xs-1 mb-1">
+      {% if blog.image %}<div class="blog-image"><img alt="{{ blog.title }} logo" src="{{ blog.image }}" /></div> {% endif %}
+      <h2 class="blog-title"><a href="{{blog.url}}" target="_blank">{{ blog.title }}</a></h2>
+      <div class="blog-content">
+        <hr />
+        <p align="left">{{blog.excerpt}} | <a href="{{blog.url}}" target="_blank">Read more...</a></p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

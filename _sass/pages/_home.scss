@@ -108,9 +108,8 @@ html{
     h1 {
       text-align: right;
       float: right;
-      color: $primary;
+      color: $secondary;
       margin-top: -30%;
-      color: $primary;
       font-size: 2.4rem;
       line-height: 1.2;
       font-family: $font-family-heading;
@@ -131,8 +130,9 @@ html{
 
 .about {
   h1 {
-    color: $primary;
-    font-size: 1.8rem;
+    color: $secondary;
+    font-weight:300;
+    font-size: 2.0rem;
     line-height: 1.2;
     font-family: $font-family-heading;
     margin-bottom: 10px;
@@ -328,7 +328,7 @@ html{
     a {
     margin-bottom: 2px;
       color:$secondary;
-      font-size:2rem;
+      font-size:1.5rem;
       :hover{
         color: $primary
       }
