@@ -206,7 +206,6 @@ html{
     width: 100%;
     height: auto;
     vertical-align: bottom;
-    border-radius: 50%;
   }
   @include media-breakpoint-up(xs) {
     display: none;
@@ -303,6 +302,36 @@ html{
   float: right;
   a {
     margin-bottom: 2px;
+  }
+}
+
+.home-page-icon-bar {
+  text-align: center;
+  border-style:dashed;
+  max-width: 50px;
+  line-height: 1.2;
+  float:left;
+    a {
+    margin-bottom: 2px;
+      color:$secondary;
+      font-size:2rem;
+      :hover{
+        color: $primary
+      }
+  }
+}
+
+.mobile-home-page-icon-bar {
+  text-align: center;
+  line-height: 1.2;
+  float:center;
+    a {
+    margin-bottom: 2px;
+      color:$secondary;
+      font-size:2rem;
+      :hover{
+        color: $primary
+      }
   }
 }
 
