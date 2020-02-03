@@ -40,12 +40,7 @@
     font-weight: 300;
     line-height: 1.2;
   }
-  .blog-title {
-    font-size: 1.2rem;
-    font-weight: 300;
-    line-height: 1.2;
-    text-align: left;
-  }
+
   .feature-content {
     margin-bottom: auto;
     margin-top: 0;
@@ -96,4 +91,12 @@
     margin-top:-10px;
     justify-content: space-evenly;
   }
+}
+
+.blog-title {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.2;
+  text-align: left;
+  font-family: $font-family-heading;
 }

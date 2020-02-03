@@ -1,26 +1,27 @@
 .video-container {
-position: relative;
-padding-bottom: 56.25%;
-padding-top: 30px; height: 0; overflow: hidden;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
 }
 
+.video-container embed,
 .video-container iframe,
-.video-container object,
-.video-container embed {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-padding:10px;
+.video-container object {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
 .page-home {
-
   .call {
     position: relative;
     overflow: hidden;
@@ -131,7 +132,7 @@ html{
 .about {
   h1 {
     color: $secondary;
-    font-weight:300;
+    font-weight: 300;
     font-size: 2.0rem;
     line-height: 1.2;
     font-family: $font-family-heading;
@@ -140,41 +141,37 @@ html{
 
   .org-logo {
     padding-bottom: 5px;
+
     img {
       max-width: 100%;
       max-height: 100%;
       position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-
+      top: 50%;
+      transform: translateY(-50%);
     }
   }
 
   .heading {
     display: block;
   }
-
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   margin-top: 15px;
 
-  .row{
+  .row {
     padding-bottom: 20px;
-    margin-top:-10px;
+    margin-top: -10px;
   }
 }
 
+.about-image {
+  display: block;
 
-
-.about-image{
-  display:block;
-
-  img{
+  img {
     width: 100%;
     height: auto;
   }
 }
-
 
 .feature-image {
   display: block;
@@ -199,7 +196,7 @@ html{
   }
 }
 
-.portfolio-image{
+.portfolio-image {
   display: block;
 
   img {
@@ -223,6 +220,7 @@ html{
 
 .mobile-feature-image {
   display: none;
+
   img {
     width: 100%;
     height: auto;
@@ -300,6 +298,7 @@ html{
 .home-page-button-bar {
   text-align: center;
   float: right;
+
   a {
     margin-bottom: 2px;
   }
@@ -307,36 +306,41 @@ html{
 
 .home-page-icon-bar {
   text-align: center;
-  border-style:dashed;
+  border-style: dashed;
   max-width: 50px;
   line-height: 1.2;
-  float:left;
-    a {
+  float: left;
+
+  a {
     margin-bottom: 2px;
-      color:$secondary;
-      font-size:2rem;
-      :hover{
-        color: $primary
-      }
+    color: $secondary;
+    font-size: 2rem;
+
+    :hover {
+      color: $primary;
+    }
   }
 }
 
 .mobile-home-page-icon-bar {
   text-align: center;
   line-height: 1.2;
-  float:center;
-    a {
+  float: center;
+
+  a {
     margin-bottom: 2px;
-      color:$secondary;
-      font-size:1.5rem;
-      :hover{
-        color: $primary
-      }
+    color: $secondary;
+    font-size: 1.5rem;
+
+    :hover {
+      color: $primary;
+    }
   }
 }
 
 .mobile-home-page-button-bar {
   text-align: center;
+
   a {
     margin-bottom: 2px;
   }
@@ -344,7 +348,7 @@ html{
 
 .home-page-section {
   padding-top: 130px;
-  display:block;
+  display: block;
   @include media-breakpoint-up(xs) {
     display: none;
   }
@@ -360,7 +364,7 @@ html{
 }
 
 .mobile-home-page-section {
-  display:none;
+  display: none;
   @include media-breakpoint-up(xs) {
     padding-top: 15px;
     display: block;
@@ -385,27 +389,27 @@ html{
   width: 40%;
 }
 
-.card:hover{
+.card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.about:hover{
+.about:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.stretch{
+.stretch {
   width: 100%;
 }
 
-.flexwraprow{
+.flexwraprow {
   display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex-grow: 2;
-    justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 2;
+  justify-content: space-between;
 
-    .card{
-      padding: 5px;
-      margin:5px;
-    }
+  .card {
+    padding: 5px;
+    margin: 5px;
+  }
 }
