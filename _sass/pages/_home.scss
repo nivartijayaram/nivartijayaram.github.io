@@ -413,3 +413,41 @@ html {
     margin: 5px;
   }
 }
+
+a.popup-open{
+  color:white;
+}
+
+
+.popup-overlay {
+  visibility: hidden;
+  position: absolute;
+  border-radius: 10px;
+  width: 50%;
+  height: 50%;
+  left: 25%;
+  top:25%
+}
+
+.popup-overlay.active {
+  visibility: visible;
+  text-align: center;
+  background-color: white;
+  z-index: 1;
+}
+
+.popup-close{
+  top:0;
+  right:0;
+  position:absolute;
+  cursor:pointer
+}
+
+.popup-content {
+  visibility: hidden;
+}
+
+.popup-content.active {
+  visibility: visible;
+  z-index: 1;
+}

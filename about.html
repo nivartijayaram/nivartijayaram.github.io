@@ -11,12 +11,28 @@ bodyClass: page-services-list
       <img src="{{site.baseurl}}/assets/images/nivarti_homepage.jpg" />
     </div>
     <div class="col-md-8 xs-1">
-      <p>Nivarti is an ICF Accredited Career & Leadership Transformation Coach, Service Veteran and an UN Peace Keeper with over 30 Years of experience across Industry sectors.
+      <div class="row heading" align="center">
+        <h1 align="center" class="service-title">About Me</h1>
+
+      </div>
+      <p>I have over 30 Years of experience across diverse industry sectors covering Defence, Manufacturing, Automotive, Service & Banking Financial Systems. Apart from serving in Indian Air Force for close to 23 years, I also have the honour of
+        being a member of Indian Air Force contingent on UN Peace Keeping Mission in Democratic Republic of Congo (MONUC). </p>
+      </div>
+      <div class="col-md-12 xs-1"><h2>Enterprise Transformation</h2>
+      <p>Led Enterprise Transformations program for Central Functions group of Societe Generale group across India & Romania covering Agile@Scale, DevOps & Cloud transformation initiatives to build business agility levels across the organization.</p>
+      <p>An Ambassador for DevOps Agile Skills Association (DASA) in India to build DevOps & Agile Community through MeetUps to build awareness about Principles, Skills, Knowledge & Focus areas.</p>
+      <h2>Payments Transformation</h2>
+      <p>Led the biggest transformation program to set up 24x7 real time transaction capability for Institutional Business across Australia as part of New Payments Platform program driven by Reserve Bank of Australia using Scaling Agile Framework
+        (Scrum of Scrums) with a budget of over 58Mn AUD.</p>
+      <h2>Operational Process Transformation</h2>
+      <p>Led transformation program to reduce the dependence on Customer Contact Centre through setting up a Business Process Management and Electronic Documentation Management platforms on PEGA & Filenet using Agile & traditional delivery models.
       </p>
-      <p>Nivarti believes agility is a state of mind, transformation never a destination but a continuous and an ongoing journey. A continuous unlearner, Nivarti believes unlearning is a significant ingredient to sustain transformation whether it is
-        personal or organizational.
+      <h2>Infrastructure Transformation</h2>
+      <p>Led Infrastructure transformation program for General Motors across 22 Countries as part of International Operations to modernize their infrastructure involving data centre consolidation, Remote site virtualization, domain consolidation,
+        setting up new sites, drive new solution development through POC etc. </p>
+      <p>Led Digital Transformation program to set up MPLS based VOIP Network to digitize communication systems using state-of-the-art communication infrastructure, set up Satellite Communication Network designed for high reliability and redundancy.
       </p>
-      <p>Nivarti promotes a culture of "being dispensable" through identifying right talent & building capability to create sustainability in organizations.</p>
+      <p>Testimonials and bibliography can be seen at <a href="https://www.linkedin.com/in/nivartijayaram" target="_blank">here</a></p>
     </div>
   </div>
 </div>
@@ -26,6 +42,8 @@ bodyClass: page-services-list
     <h1 align="center" class="service-title">Professional Association</h1>
   </div>
   <div class="row">
+    <div class="col-sm-1 org-logo">
+    </div>
     <div class="col-sm-2 org-logo">
       <img src="{{site.baseurl}}/assets/images/orgs/1.png" />
     </div>
@@ -49,8 +67,6 @@ bodyClass: page-services-list
     <h1 align="center" class="service-title">Certifications</h1>
   </div>
   <div class="row" vertical-align="middle">
-    <div class="col-sm-1 org-logo card-columns">
-    </div>
     <div class="col-sm-1 org-logo">
     </div>
     <div class="col-sm-1 org-logo">
@@ -68,11 +84,14 @@ bodyClass: page-services-list
     <div class="col-sm-1 org-logo">
       <img src="{{site.baseurl}}/assets/images/certifications/5.png" />
     </div>
-    <div class="col-sm-1 org-logo">
-      <img src="{{site.baseurl}}/assets/images/certifications/6.png" />
-    </div>
     <div class="col-sm-2 org-logo">
       <img src="{{site.baseurl}}/assets/images/certifications/7.png" />
+    </div>
+    <div class="col-sm-1 org-logo">
+      <img src="{{site.baseurl}}/assets/images/certifications/8.png" />
+    </div>
+    <div class="col-sm-2 org-logo">
+      <img src="{{site.baseurl}}/assets/images/certifications/9.png" />
     </div>
   </div>
 </div>
@@ -81,16 +100,18 @@ bodyClass: page-services-list
 
 <div class="container about featurecontainer pt-5">
   <div class="row heading">
-    <h1 class="service-title" align="center">Testimonials</h1>
+    <h1 class="service-title" align="center" id="testimonials">Testimonials</h1>
   </div>
   <div class="row">
     {% for testimonial in site.data.testimonials %}
     <div class="feature col-sm-3 xs-1 mb-1 ml-1 mr-1">
       {% if testimonial.image %}<div class="feature-image"><img alt="{{ testimonial.name }} logo" src="{{ testimonial.image }}" /></div> {% endif %}
       <h2 class="feature-title">{{ testimonial.name }}</h2>
-      <div class="feature-content"><p><strong>{{ testimonial.jobtitle }}, {{testimonial.org}}</strong></p>
-        <hr/>
-      <p align="center">{{testimonial.text}}</p></div>
+      <div class="feature-content">
+        <p><strong>{{ testimonial.jobtitle }}, {{testimonial.org}}</strong></p>
+        <hr />
+        <p align="center">{{testimonial.text}}</p>
+      </div>
     </div>
     {% endfor %}
   </div>
