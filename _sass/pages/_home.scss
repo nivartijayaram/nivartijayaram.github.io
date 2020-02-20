@@ -414,10 +414,9 @@ html {
   }
 }
 
-a.popup-open{
-  color:white;
+a.popup-open {
+  color: white;
 }
-
 
 .popup-overlay {
   visibility: hidden;
@@ -426,7 +425,7 @@ a.popup-open{
   width: 50%;
   height: 50%;
   left: 25%;
-  top:25%
+  top: 25%;
 }
 
 .popup-overlay.active {
@@ -436,11 +435,11 @@ a.popup-open{
   z-index: 1;
 }
 
-.popup-close{
-  top:0;
-  right:0;
-  position:absolute;
-  cursor:pointer
+.popup-close {
+  top: 0;
+  right: 0;
+  position: absolute;
+  cursor: pointer;
 }
 
 .popup-content {
@@ -450,4 +449,12 @@ a.popup-open{
 .popup-content.active {
   visibility: visible;
   z-index: 1;
+}
+
+.unlearning-image {
+  height: auto;
+  width: 15rem;
+  @include media-breakpoint-up(md) {
+    width: 25%;
+  }
 }
