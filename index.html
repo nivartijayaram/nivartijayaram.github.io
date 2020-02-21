@@ -7,7 +7,7 @@ bodyClass: page
 <div class="container">
   <div class="row" style="margin-Top:20px !important">
 
-    <div class="mobile-feature-image col-md-12">
+    <div class="mobile-feature-image col-md-12 pt-5">
       <img src="{{site.baseurl}}/assets/images/nivarti_homepage.jpg" />
     </div>
     <div class="mobile-home-page-section col-md-12">
@@ -26,8 +26,6 @@ bodyClass: page
       </p>
 
     </div>
-
-
 
     <div class="col home-page-section col-md-6 ">
       <p class="home-page-icon-bar">
@@ -56,8 +54,7 @@ bodyClass: page
 
   </div>
 </div>
-
-<div class="container about pr-6 pl-6 pt-2 pb-1 " id="bio">
+<div class="container about pr-6 pl-6 pt-2 pb-1 mt-5">
   <div class="row heading" align="center">
     <h1 align="center" class="service-title">My Mission</h1>
 
@@ -94,7 +91,7 @@ bodyClass: page
 </div>
 
 
-<div class="container about pr-6 pl-6 pt-6 pb-6 " id="bio">
+<div class="container about pr-6 pl-6 pt-6 pb-6 ">
   <div class="row heading" align="center">
     <h1 align="center" class="service-title">What am I passionate about?</h1>
 
@@ -120,7 +117,7 @@ bodyClass: page
   </div>
 </div>
 
-<div class="container about pr-6 pl-6 pt-6 pb-6">
+<div class="container about pr-6 pl-6 pt-6 pb-6 mb-5">
   <div class="row heading" align="center">
     <h1 align="center" class="service-title">Professional Association</h1>
   </div>
@@ -169,71 +166,3 @@ bodyClass: page
     })
   })
 </script>
-
-
-<!--
-    <div class="col home-page-section col-md-6" align="center" style="vertical-align:middle;">
-      <h1 class='pb-2'>Nivarti Jayaram</h1>
-      <div class="container flexwraprow" >
-      <div class="card">&#9672; ICF Accredited Coach </div>
-      <div class="card">&#9672; Service Veteran </div>
-      <div class="card">&#9672; Career Coach </div>
-      <div class="card">&#9672; UN Peace Keeper </div>
-      <div class="card" style="width:100%">&#9672; Leadership Transformation Coach </div>
-      </div>
-
-        <div style="display:flex; margin-top:30px;">
-          <a href="{{site.baseurl}}/about" class="button stretch" >Learn More</a> &nbsp;
-          <a href="{{site.baseurl}}/contact" class="button stretch"> &nbsp; Contact &nbsp; </a>
-        </div>
-
-
-    </div>
-
-<div class="col portfolio-image col-md-6 pt-5">
-  <img src="{{site.baseurl}}/assets/images/nivarti_homepage.jpg"/>
-</div>
--->
-
-<!--
-<div class="container pt-8 pt-md-10">
-  <div class="row justify-content-start">
-    <div class="col-12">
-      <h2 class="title-3 text-dark mb-3">My Services</h2>
-    </div>
-    {% for service in site.services %}
-    <div class="col-12 col-md-4 mb-1">
-      <div class="service service-summary">
-        <div class="service-content">
-          <h2 class="service-title">
-            <a href="{{site.baseurl}}{{ service.url }}">{{ service.title }}</a>
-          </h2>
-          {{ service.content | markdownify | strip_html | truncate: 100 }}
-        </div>
-      </div>
-    </div>
-    {% endfor %}
-    <div class="col-12 text-center">
-      <a class="button button-primary mt-2" href="{{site.baseurl}}/services">View All Services</a>
-    </div>
-  </div>
-</div>
-<div class="container pt-5 pb-5 pt-md-7 pb-md-7">
-  <div class="row justify-content-center">
-    <div class="col-12">
-      <h2 class="title-3 text-dark mb-4">Our Features</h2>
-    </div>
-    {% for feature in site.data.features %}
-    <div class="col-12 col-md-6 col-lg-4 mb-2">
-      <div class="feature">
-        {% if feature.image %}<div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image }}" /></div> {% endif %}
-        <h2 class="feature-title">{{ feature.title }}</h2>
-        <div class="feature-content">{{ feature.description }}</div>
-        <div> bleh bleh </div>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-</div>
-
--->
