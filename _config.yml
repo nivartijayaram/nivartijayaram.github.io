@@ -32,3 +32,4 @@ google_analytics_id: UA-125398909-1
 
 plugins:
   - jekyll-environment-variables
+  - jekyll-sitemap
