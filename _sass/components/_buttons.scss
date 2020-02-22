@@ -1,6 +1,6 @@
 .button {
   white-space: nowrap;
-  margin-bottom:2px;
+  margin-bottom: 2px;
   display: inline-block;
   height: 40px;
   line-height: 40px;
@@ -16,6 +16,7 @@
   text-decoration: none;
   -webkit-transition: all 0.15s ease;
   transition: all 0.15s ease;
+
   &:hover {
     color: #fff;
     background-color: lighten($primary, 10%);
@@ -25,7 +26,18 @@
   }
 }
 
-.round-button{
+.round-button {
   @extend .button;
   border-radius: 400px;
+}
+
+.category-button {
+  @extend .round-button;
+  background: steelblue;
+  height: 30px;
+  line-height: 30px;
+  font-weight: 300;
+  font-size: 1.0rem;
+  text-transform: none;
+  border-radius: 1px;
 }

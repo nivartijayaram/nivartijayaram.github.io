@@ -8,10 +8,58 @@ bodyClass: page
     <h1 class="service-title" align="center">My Writings</h1>
   </div>
   <div class="row">
-    <a align="center" href="#" class="round-button popup-open" >Subscribe</a>
+    <a align="center" href="#" class="round-button popup-open">Subscribe</a>
+  </div>
+
+  <div class="category-row">
+    <div class="md-1 xs-1">
+      <a align="center" href="#leadership" title="Scroll to Leadership blogs" class="category-button">Leadership</a>
+      <a align="center" href="#coaching" title="Scroll to Coaching blogs" class="category-button">Coaching</a>
+      <a align="center" href="#transformation" title="Scroll to Transformation blogs" class="category-button">Transformation</a>
+    </div>
+  </div>
+
+  <hr />
+
+  <div class="row heading">
+    <h1 class="service-title anchor" id="leadership" align="center">Leadership</h1>
   </div>
   <div class="row">
-    {% for blog in site.data.blogs %}
+    {% for blog in site.data.blogs.leadership %}
+    <div class="feature col-sm-8 xs-1 mb-1">
+      {% if blog.image %}<div class="blog-image"><img alt="{{ blog.title }}" src="{{ blog.image }}" /></div> {% endif %}
+      <h2 class="blog-title"><a href="{{blog.url}}" target="_blank">{{ blog.title }}</a></h2>
+      <div class="blog-content">
+        <p align="left">{{blog.excerpt}} | <a href="{{blog.url}}" target="_blank">Read more...</a></p>
+      </div>
+
+    </div>
+    {% endfor %}
+  </div>
+
+  <hr />
+
+  <div class="row heading">
+    <h1 class="service-title anchor" id="coaching" align="center">Coaching</h1>
+  </div>
+  <div class="row">
+    {% for blog in site.data.blogs.coaching %}
+    <div class="feature col-sm-8 xs-1 mb-1">
+      {% if blog.image %}<div class="blog-image"><img alt="{{ blog.title }}" src="{{ blog.image }}" /></div> {% endif %}
+      <h2 class="blog-title"><a href="{{blog.url}}" target="_blank">{{ blog.title }}</a></h2>
+      <div class="blog-content">
+        <p align="left">{{blog.excerpt}} | <a href="{{blog.url}}" target="_blank">Read more...</a></p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <hr />
+  <div class="row heading">
+    <h1 class="service-title anchor" id="transformation" align="center">Transformation</h1>
+  </div>
+  <div class="row">
+    {% for blog in site.data.blogs.transformation %}
     <div class="feature col-sm-8 xs-1 mb-1">
       {% if blog.image %}<div class="blog-image"><img alt="{{ blog.title }}" src="{{ blog.image }}" /></div> {% endif %}
       <h2 class="blog-title"><a href="{{blog.url}}" target="_blank">{{ blog.title }}</a></h2>

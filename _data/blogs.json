@@ -1,15 +1,87 @@
-[
+{
+"leadership": [
   {
-    "title": "2019 – Extending the horizons: A year of many hits and a few misses",
-    "image": "/assets/images/blogs/0.jpeg",
-    "url": "https://www.linkedin.com/pulse/2019-extending-horizons-year-many-hits-few-misses-nivarti-jayaram-/",
-    "excerpt": "Reflecting back at the year gone by, it has been another eventful year in both professional as well as personal life where I looked to extend my horizons through some firsts in life, overcoming limiting beliefs"
+    "title": "Being Dispensable: An individual trait or organization culture !!",
+    "image": "/assets/images/blogs/dispensable.png",
+    "url": "https://www.linkedin.com/pulse/being-dispensable-individual-trait-organization-nivarti/",
+    "excerpt": "Like many other Leadership traits, one significant trait I believe should be looked out for is “Being Dispensable”. A leader equipped with this trait could automatically be excelling on other qualities that a workforce looks for."
+  },
+  {
+    "title": "Feedback to Feed forward – It’s time to look ahead",
+    "image": "/assets/images/blogs/feed_forward.png",
+    "url": "https://www.linkedin.com/pulse/feed-back-forward-its-time-look-ahead-jayaram-pgmp-pmp-acp-itil-f/",
+    "excerpt": "Traditionally performance management of resources in most organizations is based on stakeholder feedback which primarily is focused on resource efforts aligned to the defined KRAs. Career progression and personal development of the employees is always looked at as a subset of performance management. "
+  },
+  {
+    "title": "\"Disruption\", the new way of life – How to continue to excel?",
+    "image": "/assets/images/blogs/disruption.png",
+    "url": "https://www.linkedin.com/pulse/disruption-new-way-life-how-continue-excel-nivarti/",
+    "excerpt": "Business disruption is a hot commodity for some time now and is the new way of life. What causes disruption? <br/> Disruption can be caused by change in hardware / software technologies, driven by design and / or business models. \"<i>The major cause of digital disruption is the rapid advancement of technology and globalization, which allows new business models to be introduced at an ever-increasing rate and with rapidly declining costs.</i>\" In order to stay relevant, Organizations are forced to transform their technologies, systems, the way they work inside."
+  },
+  {
+    "title": "Lessons in Leadership - Succession planning (Part 1)",
+    "image": "/assets/images/blogs/succession.png",
+    "url": "https://www.linkedin.com/pulse/i-just-learnt-another-lesson-leadership-nivarti-jayaram-/",
+    "excerpt": "Have you ever felt that you are the most eligible person in the team to be the next in line? and then, been replaced mostly because of the perception of the key stakeholders. probably, you are not the first one in the corporate world.<br/>The most neglected part of leadership posture is succession planning as most of us feel that we would ever be loyal to the organization we are currently engaged with and operating in, of course till our own expectations are fulfilled."
+  },
+  {
+    "title": "Lessons in Leadership - Succession planning (Part 2)",
+    "image": "/assets/images/blogs/succession.png",
+    "url": "https://www.linkedin.com/pulse/lessons-leadership-succession-planning-nivarti-jayaram-/",
+    "excerpt": "\"Known devil is much better than the unknown\" is the phrase that we all have heard and somewhat believed in growing up in life. This also influences our decision-making process when we are in crunch situations. Let us now look at how this is applied in the context of succession planning!!"
+  }
+
+],
+"coaching":[
+  {
+    "title": "Self-Assessment – Continuous evaluation is key to excellence",
+    "image": "/assets/images/blogs/self_assessment.png",
+    "url": "https://www.linkedin.com/pulse/self-assessment-continuous-evaluation-key-excellence-nivarti/",
+    "excerpt": "Self-assessment is the process of looking at oneself in order to assess aspects that are important to one's identity. It is one of the motives that drive self-evaluation, along with self-verification and self-enhancement (from Wikipedia). <br/> Self-assessment is essential for individuals / teams and even organizations to be able to achieve excellence. However, this is just a first step and not the last."
+  },
+  {
+    "title": "Active Questioning – Tool for transforming minds",
+    "image": "/assets/images/blogs/active_questioning.png",
+    "url": "https://www.linkedin.com/pulse/active-questioning-tool-transforming-minds-nivarti/",
+    "excerpt": "Cultural transformation makes or breaks an Organizational Change initiative. Organizations that realize and look for ways to effectively manage cultural aspects would not just succeed but excel in their transformation journey."
+  },
+  {
+    "title": "Why do I need a Coach??",
+    "image": "/assets/images/blogs/why_do_i_need_a_coach.png",
+    "url": "https://www.linkedin.com/pulse/why-do-i-need-coach-nivarti-jayaram-pgmp-pmp-acp-sps-itil-f/",
+    "excerpt": "I am successful, understand my strengths & weaknesses and am able to work around these. Then, why do I need a coach? Do you have this question in mind too!!!<br/>The general perception is that one needs to look out for a coach when you hit a hurdle that you are struggling to overcome or completely lost in your journey of life and that a Coach needs to be better capable / accomplished than yourself."
+  },
+  {
+    "title": "Self-Coaching – help yourself to overcome limiting beliefs",
+    "image": "/assets/images/blogs/self_coaching.png",
+    "url": "https://www.linkedin.com/pulse/self-coaching-help-yourself-overcome-limiting-beliefs-nivarti/",
+    "excerpt": "Can I be my own Coach? Has this thought ever crossed your mind? For me, it had. The answer was “Yes” to a great extent. It needs for one to be highly focused and motivated to coach himself. There are limitations though that I have found on the extent to which I can coach myself"
+  },
+  {
+    "title": "Self-Reflection – Most underutilized yet powerful tool",
+    "image": "/assets/images/blogs/self_reflection.png",
+    "url": "https://www.linkedin.com/pulse/self-reflection-most-underutilized-yet-powerful-tool-nivarti-jayaram-/",
+    "excerpt": "Hey, what happened to you? You don’t look like the way you used to be. You seem to have changed or you are not the same bubbling energetic person. Has someone asked you these questions or made these statements recently!!! If yes, then it’s time for Self-reflection.
+<br/>Shifting jobs is never easy. I was busy for most of January handing over my responsibilities and again February & this month settling myself in the new organization.
+"
+  }
+],
+"transformation":[
+  {
+    "title": "Unlearning – a challenge or an opportunity??",
+    "image": "/assets/images/blogs/unlearning.png",
+    "url": "https://www.linkedin.com/pulse/unlearning-challenge-opportunity-jayaram-pgmp-pmp-acp-sps-itil-f/",
+    "excerpt": "There are lot of frameworks available to impart learning. It is also easier to learn new competencies & behaviors than to unlearn. This is because unlearning is an internal process to oneself. How can we unlearn? This is the big question that most of us have.
+<br/>I have been delivering business outcomes through projects & programs over past many years. Few unconscious behaviors that had crept in because of long term association with the trade are:
+"
   },
   {
     "title": "How to A’s your limiting beliefs?",
-    "image": "/assets/images/blogs/1.jpeg",
+    "image": "/assets/images/blogs/limiting_beliefs.png",
     "url": "https://www.linkedin.com/pulse/how-your-limiting-beliefs-nivarti-jayaram-/",
-    "excerpt": "I can’t speak in a public forum, I am not as good as my colleague, I am not a creative person, I can’t run a Marathon, or I am too old to shift my career "
+    "excerpt": "I can’t speak in a public forum, I am not as good as my colleague, I am not a creative person, I can’t run a Marathon, or I am too old to shift my career etc.
+<br/>Do you have some thoughts that are similar to those above? These are the thoughts that are driven by our self-limiting beliefs. 
+"
   }
-
 ]
+}

@@ -458,3 +458,15 @@ a.popup-open {
     width: 25%;
   }
 }
+
+.category-row {
+  @extend .row;
+  justify-content: flex-start;
+}
+
+.anchor::before {
+  content: "";
+  display: block;
+  height: 60px; /* fixed header height*/
+  margin: -60px 0 0; /* negative fixed header height */
+}
